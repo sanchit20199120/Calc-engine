@@ -35,7 +35,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: 
       name: QA
-      url: ''
+      url: 'https://dbc-c19c33d8-8658.cloud.databricks.com/?o=452580029438744#notebook/2720165583665627/command/2720165583665628'
     steps:
       - name: Deploy
         run: echo I am deploying! 
@@ -46,7 +46,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: 
       name: PROD
-      url: ''
+      url: 'https://dbc-c19c33d8-8658.cloud.databricks.com/?o=452580029438744#notebook/2720165583665627/command/2720165583665628'
     steps:
       - name: Deploy
         run: echo I am deploying! 
