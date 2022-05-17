@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: 
       name: DEV
-      url: 'https://dbc-c19c33d8-8658.cloud.databricks.com/?o=452580029438744#notebook/2720165583665627/command/2720165583665628'
+      url: 'https://dbc-c19c33d8-8658.cloud.databricks.com/?o=452580029438744#folder/3905951248849306'
     steps:
       - name: Deploy
         run: echo I am deploying! 
@@ -35,7 +35,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: 
       name: QA
-      url: 'https://dbc-c19c33d8-8658.cloud.databricks.com/?o=452580029438744#notebook/2720165583665627/command/2720165583665628'
+      url: 'https://dbc-c19c33d8-8658.cloud.databricks.com/?o=452580029438744#folder/3961602762188887'
     steps:
       - name: Deploy
         run: echo I am deploying! 
@@ -46,7 +46,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: 
       name: PROD
-      url: 'https://dbc-c19c33d8-8658.cloud.databricks.com/?o=452580029438744#notebook/2720165583665627/command/2720165583665628'
+      url: 'https://dbc-c19c33d8-8658.cloud.databricks.com/?o=452580029438744#folder/3961602762188899'
     steps:
       - name: Deploy
         run: echo I am deploying! 
