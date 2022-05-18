@@ -41,7 +41,7 @@ jobs:
     steps:
       - name: Deploy
         env:  
-          DATABRICKS_SECRET: ${{ secrets.DATABRICK_SECRET }}
+          DATABRICKS_SECRET: ${{ secrets.DATABRICKS_SECRET }}
         run: echo I am deploying! 
             
   DeployProd:
