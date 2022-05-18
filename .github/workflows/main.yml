@@ -40,7 +40,8 @@ jobs:
       
     steps:
       - name: Deploy
-        env:  
+        env: 
+          DATABRICKS_HOST : https://dbc-c19c33d8-8658.cloud.databricks.com
           DATABRICKS_SECRET: ${{ secrets.DATABRICKS_SECRET }}
         run: echo I am deploying! 
             
