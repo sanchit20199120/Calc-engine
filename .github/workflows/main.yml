@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: 
       name: DEV
-      url: 'https://dbc-c19c33d8-8658.cloud.databricks.com/Repos/sanchitbhardwaj567@gmail.com/DEV'
+      url: 'https://dbc-c19c33d8-8658.cloud.databricks.com/api/2.0/repos/3905951248849306'
     steps:
       - name: Deploy
         run: echo I am deploying!! 
@@ -35,7 +35,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: 
       name: QA
-      url: 'https://dbc-c19c33d8-8658.cloud.databricks.com/Repos/sanchitbhardwaj567@gmail.com/QA'
+      url: 'https://dbc-c19c33d8-8658.cloud.databricks.com/api/2.0/repos/3961602762188887'
     steps:
       - name: Deploy
         run: echo I am deploying! 
