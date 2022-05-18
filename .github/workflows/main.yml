@@ -26,7 +26,7 @@ jobs:
       url: 'https://dbc-c19c33d8-8658.cloud.databricks.com/?o=452580029438744#folder/3905951248849306'
     steps:
       - name: Deploy
-        run: echo I am deploying! 
+        run: echo I am deploying!! 
     
   DeployStaging:
     name: Deploy to Staging 
