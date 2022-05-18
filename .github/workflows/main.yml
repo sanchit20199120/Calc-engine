@@ -1,4 +1,4 @@
-name: CI + CD
+name: CICD
 
 on:
   push:
@@ -7,9 +7,6 @@ on:
     branches: [ main ]
   workflow_dispatch:
   
-env:
-  DATABRICKS_HOST: "https://dbc-c19c33d8-8658.cloud.databricks.com"
-  DATABRICKS_TOKEN: "dapi0876ac6a6fd3031865d30bfa00f727b1"
 
 jobs:
   Build:
@@ -43,6 +40,8 @@ jobs:
       
     steps:
       - name: Deploy
+        env:  
+          DATABRICKS_SECRET: ${{ secrets.DATABRICK_SECRET }}
         run: echo I am deploying! 
             
   DeployProd:
